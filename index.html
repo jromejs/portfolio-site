@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jerome Ntumba | Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .milestone-title {
+        color: #22d3ee;
+        font-family: "Space Mono", monospace;
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin: 0 0 20px;
+      }
+
+      .milestone-subheading {
+        margin: 0 0 10px;
+        color: #f8fafc;
+        font-weight: 600;
+      }
+
+      .milestone-summary {
+        margin: 0;
+        color: #94a3b8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="banner">
+      <div class="brand">
+        <img id="code-icon" src="images/code-icon-accent.png" alt="" />
+        <div class="name">Jerome Ntumba | Developer Portfolio</div>
+      </div>
+    </header>
+
+    <main class="portfolio-grid">
+      <div class="item1 projects-panel">
+        <nav aria-labelledby="projects-title">
+          <h2 id="projects-title">Projects</h2>
+          <ul class="project-directory">
+            <li>
+              <a href="#careerguide-discover">
+                <strong>CareerGuide | Discover</strong>
+                <span>Opportunities for young people starting out.</span>
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio-site">
+                <strong>Portfolio Site</strong>
+                <span>Building and documenting my work in public.</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <section
+          class="certificates-panel"
+          aria-labelledby="certificates-title"
+        >
+          <h2 id="certificates-title">Certificates</h2>
+          <ul class="project-directory">
+            <li>
+              <a class="certificate-title" href="#scrimba-learning">
+                <strong>The Fullstack Developer Path</strong>
+              </a>
+              <span class="certificate-status">
+                <a href="https://scrimba.com/">Scrimba</a> · In progress
+              </span>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="item2" aria-label="Project feed">
+        <div class="feed-scroll" tabindex="0">
+          <article class="card" id="careerguide-discover">
+            <div class="card-text">
+              <h2 class="milestone-title">CareerGuide | Discover</h2>
+              <p class="milestone-subheading">
+                Helping young people find opportunities that require no previous
+                work experience
+              </p>
+              <p class="milestone-summary">
+                I built the first Discover prototype with HTML, CSS and
+                JavaScript. It includes live search, filters by opportunity type
+                and deadline sorting. Someone looking for an apprenticeship can
+                narrow the listings and see which applications close soonest.
+              </p>
+            </div>
+            <!-- CHECK IMAGE PATH: Discover screenshot -->
+            <img
+              src="images/careerguide-preview.png"
+              alt="CareerGuide Discover with search, filters and opportunity listings"
+            />
+          </article>
+
+          <article class="card" id="portfolio-site">
+            <div class="card-text">
+              <h2 class="milestone-title">Portfolio Site</h2>
+              <p class="milestone-subheading">
+                Building a home for my projects and documenting what I learn
+                along the way
+              </p>
+              <p class="milestone-summary">
+                I built this portfolio from scratch with HTML and CSS. I used
+                CSS Grid to give the project feed the most space, with a project
+                directory on the left and my skills roadmap on the right. The
+                feed gives me somewhere to share screenshots, explain my
+                decisions and show how each project changes over time.
+              </p>
+            </div>
+            <!-- CHECK IMAGE PATH: Portfolio V2 screenshot -->
+            <img
+              src="images/portfolio-screenshot.png"
+              alt="Desktop portfolio with a project feed and two side panels"
+            />
+          </article>
+
+          <article class="card" id="scrimba-learning">
+            <div class="card-text">
+              <h2 class="milestone-title">Scrimba Learning</h2>
+              <p class="milestone-subheading">
+                Currently completing The Fullstack Developer Path.
+              </p>
+              <p class="milestone-summary">
+                I’m putting what I learn into practice as I build this
+                portfolio. I’ve used CSS Grid to create the three-column desktop
+                layout and Flexbox to make my Skills Roadmap icons wrap as space
+                changes. I’m now learning JavaScript so I can add interactive
+                features to my projects.
+              </p>
+            </div>
+            <!-- CHECK IMAGE PATH: Scrimba screenshot -->
+            <img
+              src="images/scrimba-screenshot.png"
+              alt="Scrimba lesson titled Learning in Public"
+            />
+          </article>
+        </div>
+      </section>
+
+      <section class="item3 skills-panel" aria-labelledby="skills-title">
+        <h2 id="skills-title">Skills Roadmap</h2>
+        <!-- CHECK IMAGE PATH: Match these to your skill logo filenames -->
+        <ul class="skills-grid">
+          <li><img src="images/html.png" alt="HTML, worked with" /></li>
+          <li><img src="images/css.png" alt="CSS, worked with" /></li>
+          <li>
+            <img src="images/js.png" alt="JavaScript, worked with" />
+          </li>
+          <li><img src="images/git.png" alt="Git, worked with" /></li>
+          <li class="skill-planned">
+            <img src="images/typescript.png" alt="TypeScript, planned" />
+          </li>
+          <li class="skill-planned">
+            <img src="images/node.png" alt="Node.js, planned" />
+          </li>
+          <li class="skill-planned">
+            <img src="images/react.png" alt="React, planned" />
+          </li>
+          <li class="skill-planned">
+            <img src="images/next.js.png" alt="Next.js, planned" />
+          </li>
+          <li class="skill-planned">
+            <img src="images/postgresql.png" alt="PostgreSQL, planned" />
+          </li>
+          <li class="skill-planned">
+            <img src="images/python.png" alt="Python, planned" />
+          </li>
+          <li class="skill-planned">
+            <img src="images/aws.png" alt="AWS, planned" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="item4 about-panel" aria-labelledby="about-title">
+        <h2 id="about-title">About Me</h2>
+        <p class="about-lead">
+          I’m building CareerGuide while learning software engineering.
+        </p>
+        <p>
+          After eight years working across people, careers and education, I’m
+          bringing that experience into software. I’m starting with CareerGuide
+          Discover, a directory that helps young people find opportunities that
+          require no previous work experience.
+        </p>
+      </section>
+
+      <div class="item5">
+        <a
+          class="contact-box"
+          href="https://www.linkedin.com/in/jeromentumba/"
+          aria-label="LinkedIn"
+        >
+          <img class="contact-box-bg" src="images/linkedin-logo.svg" alt="" />
+        </a>
+        <a
+          class="contact-box"
+          href="mailto:jeromentumba@gmail.com"
+          aria-label="Email Jerome"
+        >
+          <img class="contact-box-bg" src="images/gmail-logo.svg" alt="" />
+        </a>
+      </div>
+
+      <div class="item6">
+        <!-- CHECK IMAGE PATH: Match these to your full-colour social logos -->
+        <a class="social-box" href="https://www.youtube.com/@jromejs">
+          <img class="background-logo" src="images/youtube-icon.png" alt="" />
+          <div class="social-text">
+            <h4>YouTube</h4>
+            <p>Coding vlogs and project walkthroughs</p>
+          </div>
+        </a>
+        <a class="social-box" href="https://www.instagram.com/jrome.js/">
+          <img class="background-logo" src="images/instagram-icon.png" alt="" />
+          <div class="social-text">
+            <h4>Instagram</h4>
+            <p>Behind the scenes of what I’m building</p>
+          </div>
+        </a>
+        <a class="social-box" href="https://www.tiktok.com/@jrome.js">
+          <img class="background-logo" src="images/tiktok-icon.png" alt="" />
+          <div class="social-text">
+            <h4>TikTok</h4>
+            <p>Quick coding clips and lessons</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="item7">
+        <a class="code-links" href="https://github.com/jromejs">
+          <img class="code-links-bg" src="images/github-white.png" alt="" />
+          <h3>GitHub</h3>
+        </a>
+        <!-- CHECK LINK: Reused the Discord URL from your earlier HTML -->
+        <a class="code-links" href="https://discord.com/1566778663243092089">
+          <img class="code-links-bg" src="images/discord-blurple.svg" alt="" />
+          <h3>Discord</h3>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
